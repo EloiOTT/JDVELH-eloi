@@ -36,3 +36,12 @@ int main(){
       printf("vous avez gagné %s pièces \n", chapitre3.gainOr);
       printf("%s\n", chapitre3.gainPv);
   }
+
+  if (deplacement >= 3){
+    printf("choix impossible \n");
+    scanf("%d", &deplacement);
+}
+  if (deplacement <= 2){
+    printf("choix impossible \n");
+    scanf("%d", &deplacement);
+}
